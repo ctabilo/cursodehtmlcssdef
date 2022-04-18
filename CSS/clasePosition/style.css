@@ -3,6 +3,10 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  display: flex;
+}
 .parent {
   border: 2px black dotted;
   display: inline-block;
@@ -15,4 +19,38 @@
 }
 #two {
   background-color: green;
+}
+
+
+/* despues debo borrar, era solo para el desafío */
+
+.desafio {
+  width: 500px;
+  height: auto;
+  background: blanchedalmond;
+  border-radius: 50px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:flex-start;
+}
+
+.desafio__titulo {
+  background-color: rgba(95, 95, 231,1);
+  padding: 10px;
+  border-radius: 10px;
+  width: auto;
+  height: auto;
+  text-align: center;
+  position: relative;
+  bottom: -20px;
+  right: -80px;
+}
+
+.desafio__parrafo {
+  background-color: rgba(7, 134, 39, 0.3);
+  padding: 15px;
+  margin: 5px;
+  border-radius: 10px;
 }
